@@ -1,6 +1,6 @@
 from .db import db, environment, SCHEMA, add_prefix_for_prod
 from datetime import datetime
-# from models import business_category
+#check
 from .business_category import business_categories
 
 class Business(db.Model):
